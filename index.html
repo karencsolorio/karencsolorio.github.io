@@ -4,9 +4,16 @@
     <head>
         <title>Karen Solorio</title>
         <link rel="stylesheet" href="style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </head>
     
     <body>
+        <ul class="nav">
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#Bio">About Me</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        
         <!--Hero is the big image at the top of the webpage that shows the image of a product/person it is describing-->
         <section class="hero">
             <header>
@@ -19,9 +26,9 @@
             </header>
         </section>
 
-        <section>
+        <section id="portfolio">
             <header>
-                <h1>Cool Stuff I've Made</h1>
+                <h1>Past Projects</h1>
                 <br><br>
             </header>
             
@@ -72,9 +79,25 @@
             </ul>
         </section>
 
-        <section>
+        <section id="Bio">
+            
             <h1>About Me</h1>
-            <p>I am a new coder.</p>
+            
+            <div class="prose">
+                <p>I am a new coder who is currently enjoying front-end web development.
+                    <br>
+                
+                </p>   
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h1>Contact</h1>
+            <address>
+                Karen Solorio
+                Columbus, MS 39705
+                555-555-555
+            </address>
         </section>
     </body>
 </html>
